@@ -7,7 +7,6 @@ function parallax(e) {
     const y = (window.innerHeight - e.pageY * speed) / 100;
 
     layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
-    //layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
 }
 

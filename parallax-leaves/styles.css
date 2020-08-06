@@ -5,6 +5,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -20,6 +26,15 @@ section h2 {
   color: #fff;
   font-size: 8em;
   text-transform: uppercase;
+}
+
+section h3 {
+  color: #fff;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  position: fixed; 
+  margin-left: 80vw; 
+  margin-top: 90vh;
 }
 
 section .set {
